@@ -1,0 +1,127 @@
+/*
+Theme Name: Lauletta- a variation on Boldy
+Author: Anson W. Han, The Star Group
+Author URI: http://www.stargroup1.com
+Description: This theme is a modification of the Boldy theme.  Check <a href="http://wordpress.site5.net/boldy/doc/">Boldy Documentation</a> in case you need directions</a>.
+*/
+
+/* BASE THEME OVERRIDES & CUSTOMIZATIONS for Internet Explorer
+-------------------------------------------*/
+/* IE7 prefix css with *+html
+/* IE6 prefix css with * html
+
+/*** call to action- phone number link in header ***/
+* html #call-header-link, *+html #call-header-link {
+  float:right;
+  font-size:17px;
+  padding-top:36px;
+}
+
+* html #call-header-link a, * html #call-header-link a:active, * html #call-header-link a:visited, *+html #call-header-link a, *+html #call-header-link a:active, *+html #call-header-link a:visited {
+  color:#ccc;
+  font-weight:normal;
+  text-decoration: none;
+}
+
+* html #call-header-link a:hover, *+html #call-header-link a:hover  {
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+
+
+/*** home page slider image control overrides ***/
+
+* html .nivo-controlNav, *+html .nivo-controlNav {
+padding-top: 10px !important;
+}
+
+
+
+/*** Boldy theme custom header search bar moved to sidebar ***/
+
+* html .rightBox #topSearch, *+html .rightBox #topSearch {
+	position:relative;
+	right:5px;
+	top:0px;
+}
+
+* html .rightBox #topSearch input[type="text"], *+html .rightBox #topSearch input[type="text"] {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+width: 100px;
+background: url(images/bk_top_search.png) 0 0 repeat-x;
+padding: 9px 10px 10px;
+border: 1px solid #2E4849;
+color: #A8A8A8;
+font-style: italic;
+margin-right: 10px;
+position: relative;
+}
+
+
+/*** Boldy theme quick contact section reformatting ***/
+* html #footerActionsInner #quickContact, *+html #footerActionsInner #quickContact {
+float: left !important;
+margin-left:0 !important;
+}
+* html #footerActionsInner #twitter, *+html #footerActionsInner #twitter {
+float: right !important;
+}
+
+
+/* Footer Content Blocks - Additional CSS for post output in footer - DW */
+
+* html .footer-block-locations, *+html .footer-block-locations {
+position: absolute;
+top: 0;
+left: 0;
+width: 150px;
+z-index: 100;
+}
+* html .footer-block-info, *+html .footer-block-info {
+position: absolute;
+left: 220px;
+z-index: 100
+}
+* html .footer-block-lawyers, *+html .footer-block-lawyers {
+position: absolute;
+left:  400px;
+z-index: 100
+}
+* html .footer-block-contact, *+html .footer-block-contact {
+position: absolute;
+left: 600px;
+z-index: 100
+}
+
+* html .footer-block-info, * html .footer-block-lawyers, * html .footer-block-content, *+html .footer-block-info, *+html .footer-block-lawyers, *+html .footer-block-content {
+line-height:180%;
+}
+
+* html .block-content h2, *+html .block-content h2{
+z-index: 110;
+}
+
+* html #footerWidgetsInner, * html #footerWidgetsInner a, * html #footerWidgetsInner a:visited, * html #footerWidgetsInner a:active, * html #footerWidgetsInner a:hover, *+html #footerWidgetsInner, *+html #footerWidgetsInner a, *+html #footerWidgetsInner a:visited, *+html #footerWidgetsInner a:active, *+html #footerWidgetsInner a:hover {
+  color: #fff;
+}
+
+
+
+/*** Footer copyright text and watermark image placement ***/
+
+* html #copyright-block, *+html #copyright-block {
+  float:left;
+  display:block;
+  padding-top:250px;
+}
+
+* html #footer-watermark, *+html #footer-watermark {
+  float:right;
+  display:block;
+  top: 55px;
+  position: relative;
+}
+
+

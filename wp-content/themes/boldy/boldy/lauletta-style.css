@@ -1,0 +1,20 @@
+/*
+Theme Name: Lauletta- a variation on Boldy
+Author: Anson W. Han, The Star Group
+Author URI: http://www.stargroup1.com
+Description: This theme is a modification of the Boldy theme.  Check <a href="http://wordpress.site5.net/boldy/doc/">Boldy Documentation</a> in case you need directions</a>.
+*/
+
+/* BASE THEME OVERRIDES
+-------------------------------------------*/
+
+#copyright-block {
+  float:left;
+  display:block;
+  padding-top:195px;
+}
+
+#footer-watermark {
+  float:right;
+  display:block;
+}

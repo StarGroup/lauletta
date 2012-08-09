@@ -1,0 +1,9 @@
+# folders/files to ignore on dev box
+_local/*
+_sql/*
+
+# folders/files to ignore globally
+.htaccess
+wp-settings.php
+/wp-content/uploads/*
+

@@ -1,0 +1,197 @@
+/*
+Theme Name: Lauletta- a variation on Boldy
+Author: Anson W. Han, The Star Group
+Author URI: http://www.stargroup1.com
+Description: This theme is a modification of the Boldy theme.  Check <a href="http://wordpress.site5.net/boldy/doc/">Boldy Documentation</a> in case you need directions</a>.
+*/
+
+/* BASE THEME OVERRIDES & CUSTOMIZATIONS
+-------------------------------------------*/
+
+#colLeft a, #colLeft a:visited, #colLeft a:active {
+text-decoration: none;
+color: #b12727 !important;
+}
+#colLeft a:hover {
+text-decoration: underline;
+}
+
+#mainMenu.ddsmoothmenu ul li ul li a, #mainMenu.ddsmoothmenu ul li ul li a:hover {
+line-height: 120% !important;
+}
+
+/*** images ****/
+
+.alignleft {
+  float:left;
+  margin: 0 15px 15px 0 !important;
+}
+
+.alignright {
+  float:right;
+  margin: 0 0 15px 15px !important;
+}
+
+/*** call to action- phone number link in header ***/
+#call-header-link {
+  float:right;
+  font-size:17px;
+  padding-top:36px;
+}
+
+#call-header-link a, #call-header-link a:active, #call-header-link a:visited {
+  color:#ccc;
+  font-weight:normal;
+  text-decoration: none;
+}
+
+#call-header-link a:hover {
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+/*** bullet override ****/
+#content #colLeft ul li, #content #colLeft ol li {
+padding: 5px 0 5px 25px;
+background: url('../images/bullet_list.jpg') 0 8px no-repeat !important;
+}
+
+
+/*** home page slider image control overrides ***/
+
+.nivo-controlNav {
+padding-top: 10px !important;
+}
+
+.nivo-caption {
+  display:none !important;
+  visibility:hidden !important;
+}
+
+/*** Featured Articles Lite sidebar widget overrides ***/
+
+.FA_overall_container_classic .FA_featured_articles .FA_article .FA_wrap {
+padding: 10px 10px !important;
+}
+
+.FA_overall_container_classic .FA_featured_articles .FA_article .image_container {
+margin: auto !important;
+margin-bottom: 10px !important;
+clear: both !important;
+float: none !important;
+border: none !important;
+}
+
+.FA_overall_container_classic .FA_featured_articles .FA_article .image_container img {
+margin: auto !important;
+}
+
+.FA_overall_container_classic.light .FA_featured_articles .FA_article h2 {
+padding-bottom:8px !important;
+}
+
+.FA_overall_container_classic .FA_featured_articles .FA_article p {
+padding: 0px 0px 15px 0px !important;
+text-align:left !important;
+}
+
+.FA_overall_container_classic.light .FA_featured_articles .FA_article {
+color: #333 !important;
+}
+
+.FA_overall_container_classic .FA_featured_articles .FA_article address {
+visibility: hidden;
+display:none;
+}
+
+address {
+padding-bottom:8px;
+}
+
+/*** Boldy theme custom header search bar moved to sidebar ***/
+
+.rightBox #topSearch {
+	position:relative;
+	right:5px;
+	top:0px;
+}
+
+.rightBox #topSearch input[type="text"] {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+width: 100px;
+background: url('../images/bk_top_search.png') 0 0 repeat-x;
+padding: 9px 10px 10px;
+border: 1px solid #2E4849;
+color: #A8A8A8;
+font-style: italic;
+margin-right: 10px;
+position: relative;
+}
+
+
+/*** Boldy theme quick contact section reformatting ***/
+#footerActionsInner #quickContact {
+float: left !important;
+margin-left:0 !important;
+}
+#footerActionsInner #twitter {
+float: right !important;
+}
+
+
+/* Footer Content Blocks - Additional CSS for post output in footer - DW */
+
+.footer-block-locations {
+position: absolute;
+top: 0;
+left: 0;
+width: 150px;
+z-index: 100;
+}
+.footer-block-info {
+position: absolute;
+left: 220px;
+z-index: 100
+}
+.footer-block-lawyers {
+position: absolute;
+left:  400px;
+z-index: 100
+}
+.footer-block-contact {
+position: absolute;
+left: 600px;
+z-index: 100
+}
+
+.footer-block-info, .footer-block-lawyers, .footer-block-content {
+line-height:180%;
+}
+
+.block-content h2{
+z-index: 110;
+}
+
+#footerWidgetsInner, #footerWidgetsInner a, #footerWidgetsInner a:visited, #footerWidgetsInner a:active, #footerWidgetsInner a:hover {
+  color: #fff;
+}
+
+
+
+/*** Footer copyright text and watermark image placement ***/
+
+#copyright-block {
+  float:left;
+  display:block;
+  padding-top:250px;
+}
+
+#footer-watermark {
+  float:right;
+  display:block;
+  top: 55px;
+  position: relative;
+}
+
+
